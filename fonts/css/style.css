@@ -1,0 +1,299 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*common start*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display,serif';
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 30px 0;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width:90%;
+	/*border: 1px solid;*/
+}
+.logo{
+     margin-top: 10px;
+    width:0%;
+ 
+	/*border: 2px solid red;*/
+	float: left;
+}
+.logo a{}
+.logo a img{
+	
+	width:100%;
+
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	transition: .3s;
+
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+.menu ul li a:hover{
+	color:#000000;
+
+}
+
+
+/*header end*/
+/*banner start*/
+.banner{}
+.banner_content{}
+.banner_content img{
+	width:100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 60px 0;
+}
+.container2{
+	width:80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.perfect_content{}
+.perfect_content h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+}
+.perfect_content p{
+	font-size: 14px;
+    line-height: 1;
+    word-spacing: 11px;
+    /*letter-spacing: 1.2px;*/
+
+}
+.common{
+	font-family:'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	 margin-top: 30px
+}
+
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 60px 0;
+}
+.single{
+	width:47%;
+	/*border: 1px solid;*/
+	float: left;
+	padding-bottom:  50px; 
+}
+
+.single:nth-child(even){
+	margin-left: 6%;
+
+}
+.single img{
+	width:100%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin:20px 0;
+}
+.single p:last-child{
+	font-size: 14px;
+	line-height: 1.5;
+
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	min-height: 250px;
+	background-color: #f0f0f0;
+}
+/*newsletter end*/
+/*button start*/
+
+.blog2{
+	padding: 90px 0;
+
+}
+.btn{}
+.container3{
+	text-align: center;
+}
+.container3 button{
+	padding:30px 70px;
+	font-size: 24px;
+	border:none;
+	border:1px solid #626262;
+	background: transparent;
+	transition: .5s;
+}
+.container3 button:hover{
+   color:white;
+   background-color: #626262;
+   border:1px solid #ffffff;
+}
+
+/*button end*/
+/*form start*/
+
+.newsletter {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.container4 {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid green; */
+}
+
+.newsletter-content {
+    width: 50%;
+    margin: 70px auto;
+    position: relative;
+}
+.newsletterText h2 {
+    margin: 0 0 45px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+.newsletterInput {
+    text-align: center;
+}
+.newsletterInput input {
+    width: 80%;
+    min-height: 30px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    background: transparent;
+    padding-bottom: 3px;
+    border: none;
+    border-bottom: 0.5px solid #333333;
+}
+.newsletterIcon {
+    width: 7%;
+    position: absolute;
+    top: 79%;
+    right: 9%;
+}
+.newsletterIcon img {
+    width: 80%;
+    cursor: pointer;
+}
+
+/*form end*/
+/*footer start*/
+.container5 {
+    margin: auto;
+    width: 85%;
+}
+.footer {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+}
+.footer-section {
+    padding: 60px 0;
+    background-color: #F0F0F0;
+}
+.footer .f-left {
+    float: left;
+    width: 40%;
+}
+.f-left nav {
+}
+.f-left nav ul {
+    list-style: none;
+}
+.f-left nav ul li {
+    float: left;
+}
+.f-left nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+
+.footer .f-right {
+    float: right;
+    width: 50%;
+}
+
+
+.f-right nav ul {
+    list-style: none;
+    float: right;
+}
+.f-right nav ul li {
+    float: left;
+}
+.f-right nav ul li:first-child a {
+    color: black;
+}
+.f-right nav ul li {
+    float: left;
+}
+.f-right nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.fab, .far {
+    font-weight: 400;
+}
+
+.f-right nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.f-right nav ul li:last-child a {
+    margin-right: 0;
+}
+.fab, .far {
+    font-weight: 400;
+}
+
+
+/*footer end*/
